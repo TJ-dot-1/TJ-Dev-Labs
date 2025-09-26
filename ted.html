@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TJ Dev Labs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+       <div class="nav-container">
+    <a href="#" class="logo">
+        <img src="TJ Logo.jpg" alt="TJ Dev Labs Logo" class="logo-img">
+    </a>
+    <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Innovate. Design. Build.</h1>
+                <p>We transform ideas into powerful digital solutions. TJ Dev Labs specializes in creating cutting-edge software that drives business growth.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn">Get Started</a>
+                    <a href="#portfolio" class="btn btn-outline">View Our Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="josiah.jpeg" alt="Josiah Nyakwara">
+                </div>
+                <div class="about-text">
+                    <h3>Josiah Nyakwara</h3>
+                    <h4>CEO & Full-Stack Developer</h4>
+                    <p>TJ Dev Labs was founded with a simple mission: to bridge the gap between innovative ideas and technological execution. As a passionate full-stack developer with over 8 years of experience, I recognized the need for a development partner that truly understands both the technical and business aspects of software creation.</p>
+                    <p>Our vision is to empower businesses of all sizes with custom software solutions that are not only functional but also scalable, secure, and user-friendly. We believe that technology should be an enabler, not a barrier, to growth and innovation.</p>
+                    <p>At TJ Dev Labs, we combine technical expertise with creative problem-solving to deliver solutions that exceed expectations. Whether you need a simple website or a complex enterprise application, we're committed to bringing your vision to life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Website Design & Development</h3>
+                    <p>Custom, responsive websites that look great on any device and deliver exceptional user experiences.</p>
+                    <button class="btn btn-outline learn-more" data-service="web-design">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>SEO & Digital Marketing</h3>
+                    <p>Boost your online visibility with our comprehensive SEO strategies and digital marketing solutions.</p>
+                    <button class="btn btn-outline learn-more" data-service="seo">Learn More</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Custom Software Development</h3>
+                    <p>Tailored software solutions designed to solve your unique business challenges and drive growth.</p>
+                    <button class="btn btn-outline learn-more" data-service="software">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="scrn1.png" alt="E-commerce Platform">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>A fully customized online store with inventory management, payment processing and product showcase.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="scrn2.png" alt="E-commerce Store">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Online Poultry Farm</h3>
+                        <p>Interactive online store for poultry farmers and products.</p>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <img src="scrn3.png" alt="DJ Booking Platform">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>DJ Website </h3>
+                        <p>DJ websites to showcase his services, skills and mixtapes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@tjdevlabs.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Follow Us</h3>
+                            <div class="social-links">
+                                <a href="www.linkedin.com/in/josiah-nyakwara" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://github.com/TJ-dot-1/dj-ted" class="social-link"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>TJ Dev Labs</h3>
+                    <p>Innovate. Design. Build. We create digital solutions that drive business growth and success.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="learn-more" data-service="web-design">Website Design</a></li>
+                        <li><a href="#" class="learn-more" data-service="seo">SEO & Marketing</a></li>
+                        <li><a href="#" class="learn-more" data-service="software">Software Development</a></li>
+                        <li><a href="#">Consulting</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 TJ Dev Labs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service Detail Modals -->
+    <div id="web-design-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Website Design & Development</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="service-details">
+                    <div>
+                        <h3>Comprehensive Web Solutions</h3>
+                        <p>We create stunning, responsive websites that not only look great but also perform exceptionally across all devices. Our approach combines aesthetic design with technical excellence to deliver websites that convert visitors into customers.</p>
+                        <div class="service-features">
+                            <h4>What We Offer:</h4>
+                            <ul>
+                                <li>Custom website design tailored to your brand</li>
+                                <li>Fully responsive mobile-first development</li>
+                                <li>E-commerce solutions with secure payment integration</li>
+                                <li>Content Management System (CMS) implementation</li>
+                                <li>Website performance optimization</li>
+                                <li>Ongoing maintenance and support</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Technologies We Use</h3>
+                        <p>Our team stays current with the latest web technologies to ensure your website is built with the most efficient and secure tools available.</p>
+                        <div class="service-features">
+                            <ul>
+                                <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                                <li>React, Vue.js, and Angular frameworks</li>
+                                <li>Node.js, PHP, and Python backends</li>
+                                <li>WordPress, Shopify, and custom CMS</li>
+                                <li>MySQL, MongoDB databases</li>
+                                <li>AWS, Google Cloud hosting solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-process">
+                    <h3>Our Development Process</h3>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <h4>Discovery & Planning</h4>
+                            <p>We analyze your requirements and create a detailed project plan.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <h4>Design & Prototyping</h4>
+                            <p>We create wireframes and design mockups for your approval.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <h4>Development</h4>
+                            <p>Our team builds your website using agile methodology.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <h4>Testing & Launch</h4>
+                            <p>We thoroughly test and optimize before going live.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <h3>Ready to Build Your Website?</h3>
+                    <p>Contact us today for a free consultation and project estimate.</p>
+                    <a href="#contact" class="btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="seo-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>SEO & Digital Marketing</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="service-details">
+                    <div>
+                        <h3>Comprehensive Digital Marketing</h3>
+                        <p>Our SEO and digital marketing services are designed to increase your online visibility, drive qualified traffic to your website, and convert visitors into loyal customers. We use data-driven strategies to deliver measurable results.</p>
+                        <div class="service-features">
+                            <h4>Our Services Include:</h4>
+                            <ul>
+                                <li>Comprehensive SEO audit and strategy</li>
+                                <li>Keyword research and optimization</li>
+                                <li>Content marketing and creation</li>
+                                <li>Social media marketing and management</li>
+                                <li>Pay-per-click (PPC) advertising campaigns</li>
+                                <li>Email marketing automation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Our Approach</h3>
+                        <p>We believe in transparent, results-focused marketing that aligns with your business objectives.</p>
+                        <div class="service-features">
+                            <ul>
+                                <li>Customized strategies based on your industry</li>
+                                <li>Regular performance reporting and analysis</li>
+                                <li>Competitor analysis and market research</li>
+                                <li>Conversion rate optimization (CRO)</li>
+                                <li>Local SEO for geographic targeting</li>
+                                <li>E-commerce SEO for online stores</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-process">
+                    <h3>Our Marketing Process</h3>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <h4>Analysis & Strategy</h4>
+                            <p>We analyze your current online presence and develop a custom strategy.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <h4>Implementation</h4>
+                            <p>We execute the strategy across all selected channels.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <h4>Monitoring & Optimization</h4>
+                            <p>We continuously monitor performance and optimize campaigns.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <h4>Reporting & Refinement</h4>
+                            <p>We provide detailed reports and refine strategies for better results.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <h3>Ready to Grow Your Business?</h3>
+                    <p>Contact us today for a free marketing audit and strategy session.</p>
+                    <a href="#contact" class="btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="software-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Custom Software Development</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="service-details">
+                    <div>
+                        <h3>Tailored Software Solutions</h3>
+                        <p>We develop custom software applications designed to solve your specific business challenges. Our solutions are scalable, secure, and built to grow with your business.</p>
+                        <div class="service-features">
+                            <h4>Our Development Services:</h4>
+                            <ul>
+                                <li>Custom web application development</li>
+                                <li>Mobile app development (iOS & Android)</li>
+                                <li>Enterprise software solutions</li>
+                                <li>API development and integration</li>
+                                <li>Database design and optimization</li>
+                                <li>Cloud migration and deployment</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Technologies & Platforms</h3>
+                        <p>We use the latest technologies to build robust, future-proof software solutions.</p>
+                        <div class="service-features">
+                            <ul>
+                                <li>Frontend: React, Angular, Vue.js</li>
+                                <li>Backend: Node.js, Python, .NET, Java</li>
+                                <li>Mobile: React Native, Flutter, Swift, Kotlin</li>
+                                <li>Databases: PostgreSQL, MySQL, MongoDB</li>
+                                <li>Cloud: AWS, Azure, Google Cloud Platform</li>
+                                <li>DevOps: Docker, Kubernetes, CI/CD pipelines</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="service-process">
+                    <h3>Our Development Methodology</h3>
+                    <div class="process-steps">
+                        <div class="process-step">
+                            <div class="step-number">1</div>
+                            <h4>Requirements Gathering</h4>
+                            <p>We work closely with you to understand your business needs and objectives.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">2</div>
+                            <h4>Design & Architecture</h4>
+                            <p>We create technical specifications and system architecture.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">3</div>
+                            <h4>Agile Development</h4>
+                            <p>We develop in iterative cycles with regular feedback and demonstrations.</p>
+                        </div>
+                        <div class="process-step">
+                            <div class="step-number">4</div>
+                            <h4>Testing & Deployment</h4>
+                            <p>We conduct thorough testing and deploy your solution with full documentation.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="cta-section">
+                    <h3>Have a Software Project in Mind?</h3>
+                    <p>Contact us today to discuss your requirements and get a project estimate.</p>
+                    <a href="#contact" class="btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
